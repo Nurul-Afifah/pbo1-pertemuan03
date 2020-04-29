@@ -2,22 +2,26 @@ package percabangan;
 
 public class Switch {
     public static void main(String[] args) {
-        int sifat = 3;
-        switch (sifat){
-            case 1:
-                System.out.println("orang baik");
+        char nilai = 'D';
+        switch (nilai){
+            case 'A':
+                System.out.println("Mhs : \"Alhamdulillah, Terimakasih pak\"");
+                System.out.println("Dosen : \"Selamat yaa !!\"");
                 break;
-            case 2:
-                System.out.println("orang pintar");
+            case 'B':
+                System.out.println("Mhs : \"Terimakasih pak\"");
+                System.out.println(("Dosen : \"Iyaa\""));
                 break;
-            case 3:
-                System.out.println("orang sopan");
-                break;
-            case 4:
-                System.out.println("orang santun");
+            case 'C':
+                System.out.println("Mhs : \"Saya ikut kelas bapak terus, tugas mengerjakan terus juga\"");
+                System.out.println("Dosen : \"Tapi waktu ujian ikut atau tidak?\"");
+                System.out.println("Mhs : \"Tidak, maaf pak\'");
                 break;
             default:
-                System.out.println("sifat manusia");
+                System.out.println("Mhs : \"Saya ikut kelas bapak terus, tugas mengerjakan terus juga\"");
+                System.out.println("Dosen : \"*memeriksa berkas\"");
+                System.out.println("Dosen : \"Tidak ada!!!\"");
+                System.out.println("Mhs : \"Menghilang...\"");
                 break;
         }
     }
